@@ -1,5 +1,5 @@
 # sunainfo
-[sunainfo](https://ghsable.github.io/sunainfo/) is my [Twitter]*(https://twitter.com/).
+[sunainfo](https://ghsable.github.io/sunainfo/) is my [Twitter](https://twitter.com/).
 
 ## Built with ...
 - [Gatsby](https://www.gatsbyjs.com/)
