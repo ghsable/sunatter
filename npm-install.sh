@@ -1,0 +1,56 @@
+# rename
+mv antd .antd-TZoCaKDN
+mv caniuse-lite .caniuse-lite-C1BU1Zb8
+mv core-js .core-js-AkouMGVG
+mv core-js-pure .core-js-pure-m4M35tCp
+mv date-fns .date-fns-xE7yyTPx
+mv es-abstract .es-abstract-o4ARwukH
+mv es5-ext .es5-ext-BM6biCG5
+mv gatsby .gatsby-ql8Yrpyf
+mv lodash .lodash-qJA9ipfv
+mv moment .moment-2n0vZNwj
+mv prettier .prettier-m7A9vOHC
+mv prismjs .prismjs-iaa9pTFV
+mv rxjs .rxjs-JgBfhEWB
+mv webpack .webpack-6YNYwQRU
+mv @ant-design/icons-svg @ant-design/.icons-svg-5qZ9Elpd
+mv icons .icons-LnaFJCmg
+mv ansi-html .ansi-html-MwOqwu2l
+mv atob .atob-Hul28rBV
+mv babel-runtime/node_modules/core-js babel-runtime/node_modules/.core-js-IvvEyHq
+mv node_modules/babylon node_modules/.babylon-uPkcbaCQ
+mv node_modules/cssesc node_modules/.cssesc-KKdxbXEu
+mv detect .detect-libc-siFnwvCQ
+mv detect-libc .detect-libc-siFnwvCQ
+mv detect-newline .detect-newline-niWWQ5JJ
+mv detect-port .detect-port-EXIzFH11
+mv esprima .esprima-WEWJ4I3H
+mv gatsby-cli .gatsby-cli-1EJiP8F4
+mv is-ci .is-ci-zAgQBbJ3
+mv is-docker .is-docker-M7AV9dz
+mv jsesc .jsesc-h5m5mlcC
+mv lmdb-store .lmdb-store-m5sqYfyV
+mv load-bmfont/node_modules/mime load-bmfont/node_modules/.mime-ELEOAQqL
+mv loose-envify .loose-envify-Ts9S2WLy
+mv md5-file .md5-file-NZSxB5ip
+mv mkdirp .mkdirp-Yb4GMIyr
+mv mini-svg-data-uri .mini-svg-data-uri-q0HQxxg1
+mv msgpackr .msgpackr-BK0P6GfB
+mv msgpackr-extract .msgpackr-extract-b1EG0qZw
+mv nan .nan-3EhCAzfV
+mv needle .needle-4zs46crN
+mv node-gyp-build .node-gyp-build-7J61tDmj
+mv pixelmatch .pixelmatch-hxx1Qakp
+mv rc .rc-SXMMd2up
+mv rimraf .rimraf-EnmF6b5V
+mv send/node_modules/mime send/node_modules/.mime-RG6V7fvv
+mv tsconfig-paths/node_modules/json5 tsconfig-paths/node_modules/.json5-3ady8ur9
+mv which .which-xIU3vKUL
+mv node_modules/lmdb-store node_modules/.lmdb-store-m5sqYfy
+mv node_modules/.lmdb-store-m5sqYfy node_modules/.lmdb-store-m5sqYfyV
+mv node_modules/msgpackr node_modules/.msgpackr-BK0P6GfB
+mv node_modules/msgpackr node_modules/.msgpackr-BK0P6GfB
+mv node_modules/msgpackr-extract node_modules/.msgpackr-extract-b1EG0qZw
+
+# run
+npm install
