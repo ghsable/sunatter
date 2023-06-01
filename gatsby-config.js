@@ -8,6 +8,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: `/sunainfo`,
   siteMetadata: {
     title: `sunainfo`,
     author: {
