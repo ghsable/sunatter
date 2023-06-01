@@ -9,7 +9,15 @@ import * as React from "react"
 
 const Bio = () => {
  return (
-    <div className="">
+    <div className="mybio">
+      <p>
+        <a href="">😪</a>
+        😴
+        😪
+        😴
+        😪
+        …
+      </p>
     </div>
   )
 }
