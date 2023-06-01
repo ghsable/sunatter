@@ -329,3 +329,11 @@ a:focus {
     list-style-position: inside;
   }
 }
+
+.mybio p {
+  letter-spacing: 0.15em;
+}
+
+.mybio a {
+  text-decoration: none;
+}
