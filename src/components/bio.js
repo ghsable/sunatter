@@ -11,7 +11,7 @@ const Bio = () => {
  return (
     <div className="mybio">
       <p>
-        <a href="/">😪</a>
+        <a href="/sunainfo">😪</a>
         😴
         😪
         😴
