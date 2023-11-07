@@ -15,7 +15,7 @@ const Bio = () => {
         😴
         😪
         😴
-        😪
+        <a href="/sunalog">😪</a>
         …
       </p>
     </div>
