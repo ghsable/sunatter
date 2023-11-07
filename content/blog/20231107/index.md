@@ -2,7 +2,7 @@
 title: 20231107
 date: "2023-11-07"
 ---
-こんにちは。[Rakuten Web Service](https://webservice.rakuten.co.jp/) の [API一覧](https://webservice.rakuten.co.jp/documentation) を眺めていて少し気になりました。
+こんにちは。[Rakuten Web Service](https://webservice.rakuten.co.jp/) の [API一覧](https://webservice.rakuten.co.jp/documentation) を眺めていて少し気になりました。（巷で話題のネタです。）
 
 エンドポイントの共通部分「`https://app.rakuten.co.jp/services/api`」が少し冗長に見えます。なぜなら同じような意味のワード（`app`, `services`, `api`）が並んでいるからです。
 
