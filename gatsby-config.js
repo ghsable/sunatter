@@ -8,15 +8,15 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  pathPrefix: `/sunainfo`,
+  pathPrefix: `/sunatter`,
   siteMetadata: {
-    title: `sunainfo`,
+    title: `sunatter`,
     author: {
       name: `suna`,
       summary: `How to Do Nothing.`,
     },
     description: `suna❜s information.`,
-    siteUrl: `https://ghsable.github.io/sunainfo/`,
+    siteUrl: `https://ghsable.github.io/sunatter/`,
     social: {
       twitter: ``,
     },
