@@ -68,7 +68,7 @@ X11. Please consider to use X Window System for now.
 
 その意味は [Xwayland](https://wayland.freedesktop.org/xserver.html) 経由で（期待通りに）起動されているということになります（泣）残念ながらチェックメイトです。
 
-ちなみに [Wine](https://www.winehq.org/)（`wineWowPackages.waylandFull`）+ [Winetricks](https://wiki.winehq.org/Winetricks)（`winetricks`）では、アプリケーションの実行段階から雲行きが怪しい雰囲気です。よく忘れてしまうので、頻出のコマンドだけ控えておきます。
+ちなみに [Wine](https://www.winehq.org/)（`wineWowPackages.waylandFull`）+ [Winetricks](https://wiki.winehq.org/Winetricks)（`winetricks`）では、アプリケーションの実行段階から雲行きが怪しい雰囲気です。よく忘れてしまうので、ついでに頻出のコマンドを控えておきます。
 ```shell
 # .exe形式の実行
 $ wine プログラム名.exe
