@@ -2,7 +2,7 @@
 title: 20231111
 date: "2023-11-11"
 ---
-しばらく先の私に向けた戦記を残しておきます。[NixOS](https://nixos.org/) で [Immersed](https://immersed.com/) を完動させることが最終目的です。（[NixOS](https://nixos.org/) ユーザ以外の方が読まれてもあまり意味が無いです。）
+しばらく先の私に向けた戦記を残しておきます。[NixOS](https://nixos.org/) で [Immersed](https://immersed.com/) を完動させることが最終目的です。（[NixOS](https://nixos.org/) 以外のユーザが読まれてもあまり意味が無いかもしれません。）
 
 [Immersed](https://immersed.com/) のLinux版（例: `Immersed-x86_64.AppImage`）を実行するには、`appimage-run`（[AppImage](https://appimage.org/) を実行）が要ります。
 ```shell
@@ -54,9 +54,9 @@ Immersed-x86_64.AppImage installed in /home/username/.cache/appimage-run/hashcod
 
 あとは画面の案内通りに接続先情報を入力すれば、接続先側にコンピュータがホスト名で追加されると思います。
 
-[X11](https://www.x.org/releases/current/doc/man/man7/X.7.xhtml) ユーザの方は恐らくこれで完了かと思います。お疲れ様でした。
+[X11](https://www.x.org/releases/current/doc/man/man7/X.7.xhtml) ユーザは恐らくこれで完了かと思います。お疲れ様でした。
 
-[Wayland](https://wayland.freedesktop.org/index.html) ユーザの方は居残りです。不穏なメッセージが表示されたかと思います。
+[Wayland](https://wayland.freedesktop.org/index.html) ユーザは居残りです。不穏なメッセージが表示されたかと思います。
 ```text
 Wayland Window System is detected. Currently we only support
 X11. Please consider to use X Window System for now.
