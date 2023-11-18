@@ -64,7 +64,7 @@ X11. Please consider to use X Window System for now.
 
 結論、[Immersed](https://immersed.com/) は [Wayland](https://wayland.freedesktop.org/index.html) に対応していません！（ﾄﾞﾝ!!）
 
-コンポジタで [Xwayland](https://wayland.freedesktop.org/xserver.html)（`pkgs.xwayland`の宣言は不要）を有効（`disable`を解除）にし、[xwininfo](https://manpages.org/xwininfo)（`xorg.xwininfo`）を起動してから [Immersed](https://immersed.com/) のウィンドウをマウスホバーしてみます。するとマウスポインタが「＋」に変化したと思います。
+コンポジタで [Xwayland](https://wayland.freedesktop.org/xserver.html)（`pkgs.xwayland`の宣言は不要）を有効（例: `disable`を解除）にし、[xwininfo](https://manpages.org/xwininfo)（`xorg.xwininfo`）を起動してから [Immersed](https://immersed.com/) のウィンドウをマウスホバーしてみます。するとマウスポインタが「＋」に変化したと思います。
 
 その意味は [Xwayland](https://wayland.freedesktop.org/xserver.html) 経由で（期待通りに）起動されているということになります（泣）残念ながらチェックメイトです。
 
