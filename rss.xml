@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[suna❜s information.]]></description><link>https://ghsable.github.io/sunatter</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 18 Nov 2023 04:54:30 GMT</lastBuildDate><item><title><![CDATA[20231111]]></title><description><![CDATA[しばらく先の私に向けた戦記を残しておきます。NixOS で Immersed を完動させることが最終目的です。（NixOS 以外のユーザが読まれてもあまり意味が無いかもしれません。） Immersed のLinux版（例: ）を実行するには、（AppImage…]]></description><link>https://ghsable.github.io/sunatter/20231111/</link><guid isPermaLink="false">https://ghsable.github.io/sunatter/20231111/</guid><pubDate>Sat, 11 Nov 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;しばらく先の私に向けた戦記を残しておきます。&lt;a href=&quot;https://nixos.org/&quot;&gt;NixOS&lt;/a&gt; で &lt;a href=&quot;https://immersed.com/&quot;&gt;Immersed&lt;/a&gt; を完動させることが最終目的です。（&lt;a href=&quot;https://nixos.org/&quot;&gt;NixOS&lt;/a&gt; 以外のユーザが読まれてもあまり意味が無いかもしれません。）&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[suna❜s information.]]></description><link>https://ghsable.github.io/sunatter</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 18 Nov 2023 05:01:43 GMT</lastBuildDate><item><title><![CDATA[20231118]]></title><description><![CDATA[こんにちは。ここ最近 セブン‐イレブン で話題になっている ブラジルプリン を買いました。 口コミでは「とにかくおいしい」と絶賛の嵐。どんなものかと期待と不安を胸にお口へIN。 ・・・っと、ここから先は書きにくいですね。 さて本題。 CatNose…]]></description><link>https://ghsable.github.io/sunatter/20231118/</link><guid isPermaLink="false">https://ghsable.github.io/sunatter/20231118/</guid><pubDate>Sat, 18 Nov 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは。ここ最近 &lt;a href=&quot;https://www.sej.co.jp/&quot;&gt;セブン‐イレブン&lt;/a&gt; で話題になっている &lt;a href=&quot;https://www.sej.co.jp/products/a/item/111493/&quot;&gt;ブラジルプリン&lt;/a&gt; を買いました。&lt;/p&gt;
+&lt;p&gt;口コミでは「とにかくおいしい」と絶賛の嵐。どんなものかと期待と不安を胸にお口へIN。&lt;/p&gt;
+&lt;p&gt;・・・っと、ここから先は書きにくいですね。&lt;/p&gt;
+&lt;p&gt;さて本題。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://catnose.me/&quot;&gt;CatNose&lt;/a&gt; さんより、&lt;a href=&quot;https://sizu.me/&quot;&gt;しずかなインターネット&lt;/a&gt; というサービスが公開されました。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;しずかなインターネットは、日記やエッセイを書くのにちょうどいい、文
+章書き散らしサービスです。
+
+ここでは有益な情報を書くことはあまり求められていません。「たくさん
+の人に読まれなくていい」「自分のために、ひょっとすると、どこかの誰
+かのために」そんな気楽さで文章を書くための場所です。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a href=&quot;https://sizu.me/about&quot;&gt;about&lt;/a&gt;（このサービスについて）より。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;しずかなインターネットは、日記やエッセイを書くのにちょうどいい文章投
+稿サービスです。
+
+ここは、Twitterやnoteのような賑やかな広場ではありません。ここは、あ
+なたのパーソナルな部屋のようなものです。部屋に文章を置き、通りかかっ
+た人が部屋に入って自由に読むことができる… そんなコンセプトで作られま
+した。
+
+ここでは、頑張って有益なことを書くことは求められていません。個人的な
+メモや日記を気楽に書き散らしましょう。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;着眼点が素敵ですね。「便利だが騒がしい都会」から「不便だが静かな田舎」へ向かうような感覚でしょうか。&lt;/p&gt;
+&lt;p&gt;サービス開始の背景が投稿されていました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://sizu.me/catnose/posts/tcm8kewsw4f6&quot;&gt;有益なことはAIに書かせよう｜catnose&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;以前、&lt;a href=&quot;https://ghsable.github.io/sunalog/&quot;&gt;sunalog&lt;/a&gt;（私のブログ）の方で「&lt;a href=&quot;https://ghsable.github.io/sunalog/post/2023-02-02-%E4%BA%BA%E9%96%93%E3%81%AB%E6%AE%8B%E3%81%95%E3%82%8C%E3%81%9F%E9%81%93%E3%81%AF%E9%9D%9E%E5%90%88%E7%90%86%E6%80%A7%E3%81%AE%E8%BF%BD%E6%B1%82%E3%81%8B%E3%82%82%E3%81%97%E3%82%8C%E3%81%AA%E3%81%84/&quot;&gt;人間に残された道は非合理性の追求かもしれない&lt;/a&gt;」というエッセイを書きました。なんだか似通うものがあり、勝手に嬉しくなりました。&lt;/p&gt;
+&lt;p&gt;合理性（有益）というのも目的や背景によって捉え方が変わり、ヒトによっては寧ろ「駄文」の方が合理に寄与する場合もあるのかもしれません。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/sunatter/20231117&quot;&gt;本記事&lt;/a&gt; を執筆できた点において、私にとっては「&lt;code class=&quot;language-text&quot;&gt;ありがたい駄文&lt;/code&gt;」です。&lt;/p&gt;
+&lt;p&gt;さてサービスを使い始めたいところですが、今のところ使いません。私にとって既に &lt;a href=&quot;/sunatter/&quot;&gt;ココ&lt;/a&gt; が「&lt;a href=&quot;https://sizu.me/&quot;&gt;しずかなインターネット&lt;/a&gt;」だからですね。&lt;/p&gt;
+&lt;p&gt;そんなわけで今後もこの暗がりで、気兼ねなく「駄文」を続けていこうと思います。&lt;/p&gt;
+&lt;p&gt;P.S.　&lt;a href=&quot;https://zenn.dev/&quot;&gt;Zenn&lt;/a&gt; のアカウントを作り直したため「&lt;a href=&quot;https://zenn.dev/dativus/articles/525840c717814e&quot;&gt;xmonad上におけるxdotoolのWindow操作でエラーが発生する場合の解決方法&lt;/a&gt;」の&lt;code class=&quot;language-text&quot;&gt;Like&lt;/code&gt;が消失してしまいました。折角いただいたのにも関わらず大変申し訳ございません。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[20231111]]></title><description><![CDATA[しばらく先の私に向けた戦記を残しておきます。NixOS で Immersed を完動させることが最終目的です。（NixOS 以外のユーザが読まれてもあまり意味が無いかもしれません。） Immersed のLinux版（例: ）を実行するには、（AppImage…]]></description><link>https://ghsable.github.io/sunatter/20231111/</link><guid isPermaLink="false">https://ghsable.github.io/sunatter/20231111/</guid><pubDate>Sat, 11 Nov 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;しばらく先の私に向けた戦記を残しておきます。&lt;a href=&quot;https://nixos.org/&quot;&gt;NixOS&lt;/a&gt; で &lt;a href=&quot;https://immersed.com/&quot;&gt;Immersed&lt;/a&gt; を完動させることが最終目的です。（&lt;a href=&quot;https://nixos.org/&quot;&gt;NixOS&lt;/a&gt; 以外のユーザが読まれてもあまり意味が無いかもしれません。）&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://immersed.com/&quot;&gt;Immersed&lt;/a&gt; のLinux版（例: &lt;code class=&quot;language-text&quot;&gt;Immersed-x86_64.AppImage&lt;/code&gt;）を実行するには、&lt;code class=&quot;language-text&quot;&gt;appimage-run&lt;/code&gt;（&lt;a href=&quot;https://appimage.org/&quot;&gt;AppImage&lt;/a&gt; を実行）が要ります。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ nix-shell &lt;span class=&quot;token parameter variable&quot;&gt;-p&lt;/span&gt; appimage-run&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;取得した &lt;a href=&quot;https://appimage.org/&quot;&gt;AppImage&lt;/a&gt; にユーザの実行権限を付与します。&lt;/p&gt;
