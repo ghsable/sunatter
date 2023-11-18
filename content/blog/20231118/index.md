@@ -2,7 +2,7 @@
 title: 20231118
 date: "2023-11-18"
 ---
-こんにちは。ここ最近 [セブン‐イレブン](https://www.sej.co.jp/) で話題になっている [ブラジルプリン](https://www.sej.co.jp/products/a/item/111493/) を買いました。
+こんにちは。ここ最近 [セブン‐イレブン](https://www.sej.co.jp/) で話題沸騰中の [ブラジルプリン](https://www.sej.co.jp/products/a/item/111493/) を買いました。
 
 口コミでは「とにかくおいしい」と絶賛の嵐。どんなものかと期待と不安を胸にお口へIN。
 
