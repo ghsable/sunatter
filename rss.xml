@@ -1,4 +1,114 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[suna❜s information.]]></description><link>https://ghsable.github.io/sunatter</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 18 Nov 2023 14:30:49 GMT</lastBuildDate><item><title><![CDATA[20231118]]></title><description><![CDATA[こんにちは。ここ最近 セブン‐イレブン で話題沸騰中の ブラジルプリン を買いました。 口コミでは「とにかくおいしい」と絶賛の嵐。どんなものかと期待と不安を胸にお口へIN。 ・・・っと、ここから先は書きにくいですね。 さて本題。 CatNose…]]></description><link>https://ghsable.github.io/sunatter/20231118/</link><guid isPermaLink="false">https://ghsable.github.io/sunatter/20231118/</guid><pubDate>Sat, 18 Nov 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは。ここ最近 &lt;a href=&quot;https://www.sej.co.jp/&quot;&gt;セブン‐イレブン&lt;/a&gt; で話題沸騰中の &lt;a href=&quot;https://www.sej.co.jp/products/a/item/111493/&quot;&gt;ブラジルプリン&lt;/a&gt; を買いました。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[suna❜s information.]]></description><link>https://ghsable.github.io/sunatter</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 19 Nov 2023 11:43:47 GMT</lastBuildDate><item><title><![CDATA[20231119]]></title><description><![CDATA[「イマドキ」は Visual Studio Code で GitHub Copilot を動かすのだそうです。（え？）Vim に引き篭もるばかりでは健康にも悪そうです。 というわけでちょっと外の空気でも・・おっと、大きな壁が。導入の段階において Windows や macOS…]]></description><link>https://ghsable.github.io/sunatter/20231119/</link><guid isPermaLink="false">https://ghsable.github.io/sunatter/20231119/</guid><pubDate>Sun, 19 Nov 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;「イマドキ」は &lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;Visual Studio Code&lt;/a&gt; で &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=GitHub.copilot&quot;&gt;GitHub Copilot&lt;/a&gt; を動かすのだそうです。（え？）&lt;a href=&quot;https://www.vim.org/&quot;&gt;Vim&lt;/a&gt; に引き篭もるばかりでは健康にも悪そうです。&lt;/p&gt;
+&lt;p&gt;というわけでちょっと外の空気でも・・おっと、大きな壁が。導入の段階において &lt;a href=&quot;https://www.microsoft.com/en-us/windows&quot;&gt;Windows&lt;/a&gt; や &lt;a href=&quot;https://www.apple.com/jp/macos/&quot;&gt;macOS&lt;/a&gt; であればスムーズに構築できるのですが、悲しいかな &lt;a href=&quot;https://nixos.org/&quot;&gt;NixOS&lt;/a&gt; だとそうもいきません。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://nixos.org/&quot;&gt;NixOS&lt;/a&gt; 以外のユーザから見たら「なんでこんなに長いの（ｗ）」と笑っていただけるような内容になったかもしれません。（基本的には私向けの記録です。）&lt;/p&gt;
+&lt;p&gt;さて本当かどうか、さっそく &lt;a href=&quot;https://github.com/microsoft/vscode&quot;&gt;Visual Studio Code&lt;/a&gt;（以下OSS版）を入れてみましょう。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ nix-shell &lt;span class=&quot;token parameter variable&quot;&gt;-p&lt;/span&gt; vscode
+error:
+       … &lt;span class=&quot;token keyword&quot;&gt;while&lt;/span&gt; calling the &lt;span class=&quot;token string&quot;&gt;&apos;derivationStrict&apos;&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;builtin&lt;/span&gt;
+
+         at /builtin/derivation.nix:9:12: &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;source not available&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+       …
+
+       a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; To temporarily allow unfree packages, you can use an environment variable
+          &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; a single invocation of the nix tools.
+
+            $ &lt;span class=&quot;token builtin class-name&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;NIXPKGS_ALLOW_UNFREE&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+
+        Note: For &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;nix shell&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;/span&gt;, &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;nix build&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;/span&gt;, &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;nix develop&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;/span&gt; or any other Nix &lt;span class=&quot;token number&quot;&gt;2.4&lt;/span&gt;+
+        &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;Flake&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; command, &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token parameter variable&quot;&gt;--impure&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;/span&gt; must be passed &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; order to &lt;span class=&quot;token builtin class-name&quot;&gt;read&lt;/span&gt; this
+        environment variable.
+
+       b&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; For &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;nixos-rebuild&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;/span&gt; you can &lt;span class=&quot;token builtin class-name&quot;&gt;set&lt;/span&gt;
+         &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; nixpkgs.config.allowUnfree &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+       &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; configuration.nix to override this.
+
+       Alternatively you can configure a predicate to allow specific packages:
+         &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; nixpkgs.config.allowUnfreePredicate &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; pkg: builtins.elem &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;lib.getName pkg&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+             &lt;span class=&quot;token string&quot;&gt;&quot;vscode&quot;&lt;/span&gt;
+           &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+         &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+       c&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; For &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;nix-env&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;/span&gt;, &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;nix-build&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;/span&gt;, &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;nix-shell&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;/span&gt; or any other Nix &lt;span class=&quot;token builtin class-name&quot;&gt;command&lt;/span&gt; you can &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt;
+         &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; allowUnfree &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+       to ~/.config/nixpkgs/config.nix.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;いきなり面を食らったかと思います。&lt;a href=&quot;https://nixos.org/&quot;&gt;NixOS&lt;/a&gt; には「Unfreeなパッケージは事前の許可が必要」という仕組みが存在するためです。&lt;/p&gt;
+&lt;p&gt;とりあえず「&lt;code class=&quot;language-text&quot;&gt;NIXPKGS_ALLOW_UNFREE&lt;/code&gt;」を利用してみます。&lt;code class=&quot;language-text&quot;&gt;shell.nix&lt;/code&gt;を用意しておけば以下で成立すると思います。（&lt;code class=&quot;language-text&quot;&gt;shellHook&lt;/code&gt;に&lt;code class=&quot;language-text&quot;&gt;code&lt;/code&gt;を入れておくと起動の手間を省けます。）&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token assign-left variable&quot;&gt;NIXPKGS_ALLOW_UNFREE&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; nix-shell&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;code&lt;/code&gt;で起動できたと思います。さてここでユーザ空間に正式に導入するか考えてみます。&lt;/p&gt;
+&lt;p&gt;ユーザ空間に導入するメリットを列挙してみます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://nixos.org/manual/nix/stable/command-ref/nix-shell&quot;&gt;nix-shell&lt;/a&gt; を起動する必要が無い。&lt;/li&gt;
+&lt;li&gt;事前に「&lt;code class=&quot;language-text&quot;&gt;NIXPKGS_ALLOW_UNFREE&lt;/code&gt;」を考慮しなくて良い。&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Extensions&lt;/code&gt;をNix側で管理できる。（有効なパッケージが存在する場合に限る。）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;書いた手前、最後はあまりオススメできません。理由は以下の通りです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;欲しい&lt;code class=&quot;language-text&quot;&gt;Extension&lt;/code&gt;のパッケージが存在しない場合がある。&lt;/li&gt;
+&lt;li&gt;機能の一部が正常に動作しない場合がある。（&lt;code class=&quot;language-text&quot;&gt;github.copilot.suggest.terminal.command&lt;/code&gt;など。）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;また &lt;a href=&quot;https://github.com/microsoft/vscode&quot;&gt;Visual Studio Code&lt;/a&gt; 内の&lt;code class=&quot;language-text&quot;&gt;Extensions&lt;/code&gt;から管理する場合は素直に&lt;code class=&quot;language-text&quot;&gt;vscode&lt;/code&gt;（パッケージ）を利用した方が良いです。（同期は「&lt;code class=&quot;language-text&quot;&gt;Settings Sync&lt;/code&gt;」に任せるのが手かもしれません。）私の環境では以下の結果になりました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;vscode&lt;/code&gt;: &lt;code class=&quot;language-text&quot;&gt;Extension&lt;/code&gt;をインストールでき、正常に動作する。&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;vscode-with-Extensions&lt;/code&gt;: &lt;code class=&quot;language-text&quot;&gt;Extension&lt;/code&gt;をインストールできない。&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;vscodium&lt;/code&gt;: &lt;code class=&quot;language-text&quot;&gt;Extension&lt;/code&gt;をインストールできるが、機能の一部が正常に動作しない。（またログイン状態を維持できないかも。）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;まあ折角なのでユーザ空間に導入しましょう。最初のエラーを回避するには、&lt;code class=&quot;language-text&quot;&gt;flake.nix&lt;/code&gt;などに以下の宣言を加えます。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;nix&quot;&gt;&lt;pre class=&quot;language-nix&quot;&gt;&lt;code class=&quot;language-nix&quot;&gt;nixpkgs&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;config&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;allowUnfree &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;参考: &lt;a href=&quot;https://github.com/nix-community/home-manager/issues/463&quot;&gt;How to use unfree software declaratively with nixos module? #463&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Unfreeなパッケージが&lt;code class=&quot;language-text&quot;&gt;vscode&lt;/code&gt;だけの場合、ここは口惜しいポイント（デメリット）かと思います。しかしトレードオフだと考えるしかなさそうです。&lt;/p&gt;
+&lt;p&gt;この残念な気持ちを少し緩和するために「Unfreeという目印」が欲しいところです。方法はいくつか考えられます。&lt;/p&gt;
+&lt;p&gt;私の場合は&lt;code class=&quot;language-text&quot;&gt;vscode&lt;/code&gt;を宣言しているディレクトリの名称を&lt;code class=&quot;language-text&quot;&gt;unfree-vscode&lt;/code&gt;としました。&lt;code class=&quot;language-text&quot;&gt;unfree&lt;/code&gt;を先頭にしたのはソートを考慮してのことです。&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;vscode-extensions.github.copilot&lt;/code&gt;を宣言すれば&lt;code class=&quot;language-text&quot;&gt;Extensions&lt;/code&gt;に追加されますが、先の理由から実施しません。&lt;a href=&quot;https://github.com/microsoft/vscode&quot;&gt;Visual Studio Code&lt;/a&gt; を開いて「&lt;code class=&quot;language-text&quot;&gt;Sign in to GitHub&lt;/code&gt;」を押下します。&lt;/p&gt;
+&lt;p&gt;ウェブブラウザに遷移して &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; の認証画面が表示されれば問題ありません。が、何の反応も無い（ウェブブラウザが起動しない）パターンもあると思います。&lt;/p&gt;
+&lt;p&gt;この問題は環境によって様々なため、可能性が高そうな解決策をご紹介します。デスクトップ環境に &lt;a href=&quot;https://www.freedesktop.org/wiki/&quot;&gt;Freedesktop.org&lt;/a&gt; が絡んでいる場合「&lt;code class=&quot;language-text&quot;&gt;xdg&lt;/code&gt;」が関係している可能性が高いです。&lt;/p&gt;
+&lt;p&gt;というのも &lt;a href=&quot;https://github.com/microsoft/vscode&quot;&gt;Visual Studio Code&lt;/a&gt; は &lt;a href=&quot;https://www.freedesktop.org/wiki/&quot;&gt;Freedesktop.org&lt;/a&gt; による &lt;a href=&quot;https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html&quot;&gt;XDG Base Directory&lt;/a&gt; に沿っているようです。したがって &lt;a href=&quot;https://www.freedesktop.org/wiki/Software/xdg-utils/&quot;&gt;xdg-utils&lt;/a&gt; によって解決されるという道理です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;参考: &lt;a href=&quot;https://github.com/Microsoft/vscode/issues/3884&quot;&gt;Revisit VS Code folder structure for app data, settings, extensions #3884&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;xdg-utils&lt;/code&gt;を導入し「デフォルトのブラウザ」を表示してみます。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ xdg-settings get default-web-browser
+chromium-browser.desktop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;正しく表示されない場合、ウェブブラウザから設定しますが、コマンドも用意されています。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ xdg-settings &lt;span class=&quot;token builtin class-name&quot;&gt;set&lt;/span&gt; default-web-browser brave-browser.desktop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;参考: &lt;a href=&quot;https://ja.linux-console.net/?p=10194&quot;&gt;Linuxでブラウザ環境変数を設定する方法&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;なぜ &lt;a href=&quot;https://www.mozilla.org/en-US/firefox/new/&quot;&gt;Firefox&lt;/a&gt;（&lt;code class=&quot;language-text&quot;&gt;firefox.desktop&lt;/code&gt;）を例に出さないのかと思われたかもしれません。どうやら &lt;a href=&quot;https://github.com/microsoft/vscode&quot;&gt;Visual Studio Code&lt;/a&gt; は &lt;a href=&quot;https://www.chromium.org/Home/&quot;&gt;Chromium&lt;/a&gt; の &lt;a href=&quot;https://chromium.googlesource.com/chromium/src/+/lkgr/components/os_crypt/&quot;&gt;OS Crypt&lt;/a&gt;（モジュール）を使っているからだそうです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;参考: &lt;a href=&quot;https://code.visualstudio.com/docs/editor/settings-sync#_linux&quot;&gt;Settings Sync#Linux&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これで「&lt;code class=&quot;language-text&quot;&gt;Sign in to GitHub&lt;/code&gt;」からウェブブラウザ（&lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; の認証画面）に遷移できるようになったかと思います。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; へログイン後、&lt;a href=&quot;https://github.com/microsoft/vscode&quot;&gt;Visual Studio Code&lt;/a&gt; に戻るとエラーが出るかもしれません。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;An OS keyring couldn&apos;t be identified for storing the
+encryption related data in your current desktop
+environment.
+
+Open the troubleshooting guide to address this or you can use weaker
+encryption that doesn&apos;t use the OS keyring.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;キーリング（例: &lt;a href=&quot;https://wiki.gnome.org/Projects/GnomeKeyring&quot;&gt;GNOME Keyring&lt;/a&gt;）が機能していないからのようです。以下がヒントになると思います。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/microsoft/vscode/issues/187338&quot;&gt;Linux: An OS keyring couldn&apos;t be identified for storing the encryption related data in your current desktop environment #187338&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://code.visualstudio.com/docs/editor/settings-sync#_troubleshooting-keychain-issues&quot;&gt;Settings Sync#Troubleshooting keychain issues&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://code.visualstudio.com/docs/editor/settings-sync#_recommended-configure-the-keyring-to-use-with-vs-code&quot;&gt;Settings Sync#(recommended) Configure the keyring to use with VS Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;キーリング周りをスタートラインから詳解すると大変なことになりますので簡単（詳細な設定内容は省略）に。ミニマルな例として &lt;a href=&quot;https://www.passwordstore.org/&quot;&gt;pass&lt;/a&gt;（&lt;code class=&quot;language-text&quot;&gt;password-store&lt;/code&gt;）および &lt;a href=&quot;https://wiki.gnome.org/Projects/Libsecret&quot;&gt;libsecret&lt;/a&gt;（&lt;code class=&quot;language-text&quot;&gt;pass-secret-service&lt;/code&gt;）を有効にし、&lt;code class=&quot;language-text&quot;&gt;~/.vscode/argv.json&lt;/code&gt;（&lt;a href=&quot;https://vscodium.com/&quot;&gt;VSCodium&lt;/a&gt; の場合は&lt;code class=&quot;language-text&quot;&gt;~/.vscode-oss/argv.json&lt;/code&gt;）に&lt;code class=&quot;language-text&quot;&gt;&quot;password-store&quot;: &quot;gnome&quot;&lt;/code&gt;（&lt;code class=&quot;language-text&quot;&gt;code --password-store=&quot;gnome&quot;&lt;/code&gt;の永続化）を加えると良さそうです。&lt;code class=&quot;language-text&quot;&gt;argv.json&lt;/code&gt;への適用は以下が参考になると思います。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/microsoft/vscode/issues/187338#issuecomment-1714813468&quot;&gt;Linux: An OS keyring couldn&apos;t be identified for storing the encryption related data in your current desktop environment #187338#issuecomment-1714813468&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;「&lt;code class=&quot;language-text&quot;&gt;Use weaker encryption&lt;/code&gt;」で先に進むことはできますが「キーリングが使えていない状態」ということに留意しておく必要があります。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/features/copilot&quot;&gt;GitHub Copilot&lt;/a&gt; のアクセス権が無い場合はエラーが出ます。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;No access to GitHub Copilot found. You are currently logged in as &amp;lt;username&gt;.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;これは「&lt;code class=&quot;language-text&quot;&gt;Signup for GitHub Copilot&lt;/code&gt;」から画面（ウェブブラウザ）の案内に従えば &lt;a href=&quot;https://github.com/features/copilot&quot;&gt;GitHub Copilot&lt;/a&gt; のアクセス権を取得できると思います。それでも失敗する場合は再ログインで解消するかもしれません。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;参考: &lt;a href=&quot;https://github.com/orgs/community/discussions/28455&quot;&gt;Your GitHub token is invalid. Please sign out from your GitHub account using VSCode UI and try again. #28455&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;お疲れ様でした。これでようやく「イマドキ」に到達ですね。&lt;/p&gt;
+&lt;p&gt;ちょっと試すだけのつもりが、なんだか長旅になってしまいました。しばらく動かしてみて、フリートライアル終了後の対応を考えたいと思います。&lt;/p&gt;
+&lt;p&gt;ということで、よっこらしょっと。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/github/copilot.vim&quot;&gt;Copilot.vim&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[20231118]]></title><description><![CDATA[こんにちは。ここ最近 セブン‐イレブン で話題沸騰中の ブラジルプリン を買いました。 口コミでは「とにかくおいしい」と絶賛の嵐。どんなものかと期待と不安を胸にお口へIN。 ・・・っと、ここから先は書きにくいですね。 さて本題。 CatNose…]]></description><link>https://ghsable.github.io/sunatter/20231118/</link><guid isPermaLink="false">https://ghsable.github.io/sunatter/20231118/</guid><pubDate>Sat, 18 Nov 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは。ここ最近 &lt;a href=&quot;https://www.sej.co.jp/&quot;&gt;セブン‐イレブン&lt;/a&gt; で話題沸騰中の &lt;a href=&quot;https://www.sej.co.jp/products/a/item/111493/&quot;&gt;ブラジルプリン&lt;/a&gt; を買いました。&lt;/p&gt;
 &lt;p&gt;口コミでは「とにかくおいしい」と絶賛の嵐。どんなものかと期待と不安を胸にお口へIN。&lt;/p&gt;
 &lt;p&gt;・・・っと、ここから先は書きにくいですね。&lt;/p&gt;
 &lt;p&gt;さて本題。&lt;/p&gt;
