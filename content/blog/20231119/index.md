@@ -2,11 +2,11 @@
 title: 20231119
 date: "2023-11-19"
 ---
-「イマドキ」は [Visual Studio Code](https://code.visualstudio.com/) で [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) を動かすのだそうです。（え？）[Vim](https://www.vim.org/) に引き篭もるばかりでは健康にも悪そうです。
+「イマドキ」は [Visual Studio Code](https://code.visualstudio.com/) で [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) を動かすのだそうです。（本当？）[Vim](https://www.vim.org/) に引き篭もるばかりでは健康にも悪そうです。
 
-というわけでちょっと外の空気でも・・おっと、大きな壁が。導入の段階において [Windows](https://www.microsoft.com/en-us/windows) や [macOS](https://www.apple.com/jp/macos/) であればスムーズに構築できるのですが、悲しいかな [NixOS](https://nixos.org/) だとそうもいきません。
+というわけでちょっと外の空気でも・・むむ、大きな壁が。導入の段階において [Windows](https://www.microsoft.com/en-us/windows) や [macOS](https://www.apple.com/jp/macos/) であればスムーズに構築できるのですが、悲しいかな [NixOS](https://nixos.org/) だとそうもいきません。
 
-[NixOS](https://nixos.org/) 以外のユーザから見たら「なんでこんなに長いの（ｗ）」と笑っていただけるような内容になったかもしれません。（基本的には私向けの記録です。）
+[NixOS](https://nixos.org/) 以外のユーザから見たら「なんでこんなに長いのｗ」と笑っていただけるような内容になったかもしれません。（基本的に私に向けた記録です。）
 
 さて本当かどうか、さっそく [Visual Studio Code](https://github.com/microsoft/vscode)（以下OSS版）を入れてみましょう。
 ```shell
@@ -79,7 +79,7 @@ Unfreeなパッケージが`vscode`だけの場合、ここは口惜しいポイ
 
 `vscode-extensions.github.copilot`を宣言すれば`Extensions`に追加されますが、先の理由から実施しません。[Visual Studio Code](https://github.com/microsoft/vscode) を開いて「`Sign in to GitHub`」を押下します。
 
-ウェブブラウザに遷移して [GitHub](https://github.com/) の認証画面が表示されれば問題ありません。が、何の反応も無い（ウェブブラウザが起動しない）パターンもあると思います。
+ウェブブラウザに遷移して [GitHub](https://github.com/) の認証画面が表示されれば問題ありません。が、何の反応も無い（ウェブブラウザに遷移しない）パターンもあると思います。
 
 この問題は環境によって様々なため、可能性が高そうな解決策をご紹介します。デスクトップ環境に [Freedesktop.org](https://www.freedesktop.org/wiki/) が絡んでいる場合「`xdg`」が関係している可能性が高いです。
 
@@ -98,7 +98,7 @@ $ xdg-settings set default-web-browser brave-browser.desktop
 ```
 参考: [Linuxでブラウザ環境変数を設定する方法](https://ja.linux-console.net/?p=10194)
 
-なぜ [Firefox](https://www.mozilla.org/en-US/firefox/new/)（`firefox.desktop`）を例に出さないのかと思われたかもしれません。どうやら [Visual Studio Code](https://github.com/microsoft/vscode) は [Chromium](https://www.chromium.org/Home/) の [OS Crypt](https://chromium.googlesource.com/chromium/src/+/lkgr/components/os_crypt/)（モジュール）を使っているからだそうです。
+「なぜ [Firefox](https://www.mozilla.org/en-US/firefox/new/)（`firefox.desktop`）を例に出さないのか」と思われたかもしれません。どうやら [Visual Studio Code](https://github.com/microsoft/vscode) は [Chromium](https://www.chromium.org/Home/) の [OS Crypt](https://chromium.googlesource.com/chromium/src/+/lkgr/components/os_crypt/)（モジュール）を使っているからだそうです。
 - 参考: [Settings Sync#Linux](https://code.visualstudio.com/docs/editor/settings-sync#_linux)
 
 これで「`Sign in to GitHub`」からウェブブラウザ（[GitHub](https://github.com/) の認証画面）に遷移できるようになったかと思います。
