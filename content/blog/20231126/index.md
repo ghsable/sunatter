@@ -165,7 +165,7 @@ fn main() {
 - 参考: [4.2. 参照と借用](https://doc.rust-jp.rs/book-ja/ch04-02-references-and-borrowing.html)
   - > 複数の不変参照をすることは可能です。 データを読み込んでいるだけの人に、他人がデータを読み込むことに対して影響を与える能力はないからです。
 
-なんだか（信頼性を隠れ蓑に）難解なコードを生み出せそうな気がしてきました。
+なんだか（信頼性を隠れ蓑に）難解なコードを生み出せそうな気がしてきます。
 ```rust
 fn main() {
     let x = 1;
@@ -192,7 +192,7 @@ fn main() {
 }
 ```
 ```text
-: 1, 0x7ffecdc4d618
+1: 1, 0x7ffecdc4d618
 2: 2, 0x7ffecdc4d61c
 3: 2, 0x7ffecdc4d61c
 4: 1, 0x7ffecdc4d618
