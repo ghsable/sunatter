@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[suna❜s information.]]></description><link>https://ghsable.github.io/sunatter</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 29 Nov 2023 00:31:11 GMT</lastBuildDate><item><title><![CDATA[20231126]]></title><description><![CDATA[はじめに こんにちは。技術書を眺めていると先に概念の説明がありますよね。 なんとなく実際の動作（詳細）を先にもってきてみました。という思いつきです。 このネタには Rust…]]></description><link>https://ghsable.github.io/sunatter/20231126/</link><guid isPermaLink="false">https://ghsable.github.io/sunatter/20231126/</guid><pubDate>Sun, 26 Nov 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;はじめに&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[suna❜s information.]]></description><link>https://ghsable.github.io/sunatter</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 29 Nov 2023 00:37:25 GMT</lastBuildDate><item><title><![CDATA[20231126]]></title><description><![CDATA[はじめに こんにちは。技術書を眺めていると先に概念の説明がありますよね。 なんとなく実際の動作（詳細）を先にもってきてみました。という思いつきです。 このネタには Rust…]]></description><link>https://ghsable.github.io/sunatter/20231126/</link><guid isPermaLink="false">https://ghsable.github.io/sunatter/20231126/</guid><pubDate>Sun, 26 Nov 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;はじめに&lt;/h1&gt;
 &lt;p&gt;こんにちは。技術書を眺めていると先に概念の説明がありますよね。&lt;/p&gt;
 &lt;p&gt;なんとなく実際の動作（詳細）を先にもってきてみました。という思いつきです。&lt;/p&gt;
 &lt;p&gt;このネタには &lt;a href=&quot;https://www.rust-lang.org/&quot;&gt;Rust&lt;/a&gt; が丁度良さそうなので題材にしてみようと思います。&lt;/p&gt;
@@ -156,7 +156,7 @@ N回目:
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;なんだか（信頼性を隠れ蓑に）難解なコードを生み出せそうな気がしてきました。&lt;/p&gt;
+&lt;p&gt;なんだか（信頼性を隠れ蓑に）難解なコードを生み出せそうな気がしてきます。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;rust&quot;&gt;&lt;pre class=&quot;language-rust&quot;&gt;&lt;code class=&quot;language-rust&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;fn&lt;/span&gt; &lt;span class=&quot;token function-definition function&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; y &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
@@ -180,7 +180,7 @@ N回目:
 
     &lt;span class=&quot;token macro property&quot;&gt;println!&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;8: {}&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; answer&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;: 1, 0x7ffecdc4d618
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;1: 1, 0x7ffecdc4d618
 2: 2, 0x7ffecdc4d61c
 3: 2, 0x7ffecdc4d61c
 4: 1, 0x7ffecdc4d618
