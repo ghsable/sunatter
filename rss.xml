@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[suna❜s information.]]></description><link>https://ghsable.github.io/sunatter</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 29 Nov 2023 00:04:55 GMT</lastBuildDate><item><title><![CDATA[20231126]]></title><description><![CDATA[はじめに こんにちは。技術書を眺めていると先に概念の説明がありますよね。 なんとなく実際の動作（詳細）を先にもってきてみました。という思いつきです。 このネタには Rust…]]></description><link>https://ghsable.github.io/sunatter/20231126/</link><guid isPermaLink="false">https://ghsable.github.io/sunatter/20231126/</guid><pubDate>Sun, 26 Nov 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;はじめに&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[suna❜s information.]]></description><link>https://ghsable.github.io/sunatter</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 29 Nov 2023 00:31:11 GMT</lastBuildDate><item><title><![CDATA[20231126]]></title><description><![CDATA[はじめに こんにちは。技術書を眺めていると先に概念の説明がありますよね。 なんとなく実際の動作（詳細）を先にもってきてみました。という思いつきです。 このネタには Rust…]]></description><link>https://ghsable.github.io/sunatter/20231126/</link><guid isPermaLink="false">https://ghsable.github.io/sunatter/20231126/</guid><pubDate>Sun, 26 Nov 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;はじめに&lt;/h1&gt;
 &lt;p&gt;こんにちは。技術書を眺めていると先に概念の説明がありますよね。&lt;/p&gt;
 &lt;p&gt;なんとなく実際の動作（詳細）を先にもってきてみました。という思いつきです。&lt;/p&gt;
 &lt;p&gt;このネタには &lt;a href=&quot;https://www.rust-lang.org/&quot;&gt;Rust&lt;/a&gt; が丁度良さそうなので題材にしてみようと思います。&lt;/p&gt;
-&lt;p&gt;題して「出力結果から言えそうなこと &lt;strong&gt;だけ&lt;/strong&gt; を並べてみる」です。内容は「&lt;a href=&quot;#%E5%8F%82%E7%85%A7%E5%85%88%E3%81%AE%E3%82%A2%E3%83%89%E3%83%AC%E3%82%B9%E3%82%92%E7%A2%BA%E8%AA%8D%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B&quot;&gt;参照先のアドレスを確認してみる&lt;/a&gt;」とします。&lt;/p&gt;
+&lt;p&gt;題して「出力結果&lt;strong&gt;だけ&lt;/strong&gt;から言えそうなことを並べてみる」です。内容は「&lt;a href=&quot;#%E5%8F%82%E7%85%A7%E5%85%88%E3%81%AE%E3%82%A2%E3%83%89%E3%83%AC%E3%82%B9%E3%82%92%E7%A2%BA%E8%AA%8D%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B&quot;&gt;参照先のアドレスを確認してみる&lt;/a&gt;」とします。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;⚠️
 - 基本的な内容だけを取り扱います。
-- あくまで出力結果から言えそうなことだけを並べる試みです。
+- あくまで出力結果だけから言えそうなことを並べる試みです。
 - 本筋から逸れる内容はラベル「脱線」を付与します。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h1&gt;参照先のアドレスを確認してみる&lt;/h1&gt;
 &lt;h2&gt;複数回実行してみる&lt;/h2&gt;
@@ -173,20 +173,20 @@ N回目:
     &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; z &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
     &lt;span class=&quot;token macro property&quot;&gt;println!&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;5: {}, {:p}&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; x&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; x&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token macro property&quot;&gt;println!&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;6: {}, {:p}&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; y&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; y&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token macro property&quot;&gt;println!&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;6: {}, {:p}&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; y&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;y&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token macro property&quot;&gt;println!&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;7: {}, {:p}&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; z&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;z&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
     &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; answer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; z &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; x &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;y &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; x_pointer &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; y_pointer&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
     &lt;span class=&quot;token macro property&quot;&gt;println!&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;8: {}&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; answer&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;1: 1, 0x7fffd7a69438
-2: 2, 0x7fffd7a6943c
-3: 2, 0x7fffd7a6943c
-4: 1, 0x7fffd7a69438
-5: 2, 0x7fffd7a6943c
-6: 2, 0x7fffd7a695a0
-7: 7, 0x7fffd7a695b4
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;: 1, 0x7ffecdc4d618
+2: 2, 0x7ffecdc4d61c
+3: 2, 0x7ffecdc4d61c
+4: 1, 0x7ffecdc4d618
+5: 2, 0x7ffecdc4d61c
+6: 2, 0x7ffecdc4d61c
+7: 7, 0x7ffecdc4d794
 8: 0&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;関数を呼んでみる&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;rust&quot;&gt;&lt;pre class=&quot;language-rust&quot;&gt;&lt;code class=&quot;language-rust&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;fn&lt;/span&gt; &lt;span class=&quot;token function-definition function&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;

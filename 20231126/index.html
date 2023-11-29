@@ -4,10 +4,10 @@
 <p>こんにちは。技術書を眺めていると先に概念の説明がありますよね。</p>
 <p>なんとなく実際の動作（詳細）を先にもってきてみました。という思いつきです。</p>
 <p>このネタには <a href="https://www.rust-lang.org/">Rust</a> が丁度良さそうなので題材にしてみようと思います。</p>
-<p>題して「出力結果から言えそうなこと <strong>だけ</strong> を並べてみる」です。内容は「<a href="#%E5%8F%82%E7%85%A7%E5%85%88%E3%81%AE%E3%82%A2%E3%83%89%E3%83%AC%E3%82%B9%E3%82%92%E7%A2%BA%E8%AA%8D%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B">参照先のアドレスを確認してみる</a>」とします。</p>
+<p>題して「出力結果<strong>だけ</strong>から言えそうなことを並べてみる」です。内容は「<a href="#%E5%8F%82%E7%85%A7%E5%85%88%E3%81%AE%E3%82%A2%E3%83%89%E3%83%AC%E3%82%B9%E3%82%92%E7%A2%BA%E8%AA%8D%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B">参照先のアドレスを確認してみる</a>」とします。</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">⚠️
 - 基本的な内容だけを取り扱います。
-- あくまで出力結果から言えそうなことだけを並べる試みです。
+- あくまで出力結果だけから言えそうなことを並べる試みです。
 - 本筋から逸れる内容はラベル「脱線」を付与します。</code></pre></div>
 <h1>参照先のアドレスを確認してみる</h1>
 <h2>複数回実行してみる</h2>
@@ -175,20 +175,20 @@ N回目:
     <span class="token keyword">let</span> z <span class="token operator">=</span> <span class="token number">7</span><span class="token punctuation">;</span>
 
     <span class="token macro property">println!</span><span class="token punctuation">(</span><span class="token string">"5: {}, {:p}"</span><span class="token punctuation">,</span> x<span class="token punctuation">,</span> x<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token macro property">println!</span><span class="token punctuation">(</span><span class="token string">"6: {}, {:p}"</span><span class="token punctuation">,</span> y<span class="token punctuation">,</span> y<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token macro property">println!</span><span class="token punctuation">(</span><span class="token string">"6: {}, {:p}"</span><span class="token punctuation">,</span> y<span class="token punctuation">,</span> <span class="token operator">*</span>y<span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token macro property">println!</span><span class="token punctuation">(</span><span class="token string">"7: {}, {:p}"</span><span class="token punctuation">,</span> z<span class="token punctuation">,</span> <span class="token operator">&amp;</span>z<span class="token punctuation">)</span><span class="token punctuation">;</span>
 
     <span class="token keyword">let</span> answer <span class="token operator">=</span> z <span class="token operator">-</span> x <span class="token operator">-</span> <span class="token operator">*</span>y <span class="token operator">-</span> x_pointer <span class="token operator">-</span> y_pointer<span class="token punctuation">;</span>
 
     <span class="token macro property">println!</span><span class="token punctuation">(</span><span class="token string">"8: {}"</span><span class="token punctuation">,</span> answer<span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span></code></pre></div>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">1: 1, 0x7fffd7a69438
-2: 2, 0x7fffd7a6943c
-3: 2, 0x7fffd7a6943c
-4: 1, 0x7fffd7a69438
-5: 2, 0x7fffd7a6943c
-6: 2, 0x7fffd7a695a0
-7: 7, 0x7fffd7a695b4
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">: 1, 0x7ffecdc4d618
+2: 2, 0x7ffecdc4d61c
+3: 2, 0x7ffecdc4d61c
+4: 1, 0x7ffecdc4d618
+5: 2, 0x7ffecdc4d61c
+6: 2, 0x7ffecdc4d61c
+7: 7, 0x7ffecdc4d794
 8: 0</code></pre></div>
 <h2>関数を呼んでみる</h2>
 <div class="gatsby-highlight" data-language="rust"><pre class="language-rust"><code class="language-rust"><span class="token keyword">fn</span> <span class="token function-definition function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
