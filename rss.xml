@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[suna❜s information.]]></description><link>https://ghsable.github.io/sunatter</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 28 Nov 2023 14:31:57 GMT</lastBuildDate><item><title><![CDATA[20231126]]></title><description><![CDATA[はじめに こんにちは。技術書を眺めていると先に概念の説明がありますよね。 なんとなく実際の動作（詳細）を先にもってきてみました。という思いつきです。 このネタには Rust…]]></description><link>https://ghsable.github.io/sunatter/20231126/</link><guid isPermaLink="false">https://ghsable.github.io/sunatter/20231126/</guid><pubDate>Sun, 26 Nov 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;はじめに&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[suna❜s information.]]></description><link>https://ghsable.github.io/sunatter</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 29 Nov 2023 00:04:55 GMT</lastBuildDate><item><title><![CDATA[20231126]]></title><description><![CDATA[はじめに こんにちは。技術書を眺めていると先に概念の説明がありますよね。 なんとなく実際の動作（詳細）を先にもってきてみました。という思いつきです。 このネタには Rust…]]></description><link>https://ghsable.github.io/sunatter/20231126/</link><guid isPermaLink="false">https://ghsable.github.io/sunatter/20231126/</guid><pubDate>Sun, 26 Nov 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;はじめに&lt;/h1&gt;
 &lt;p&gt;こんにちは。技術書を眺めていると先に概念の説明がありますよね。&lt;/p&gt;
 &lt;p&gt;なんとなく実際の動作（詳細）を先にもってきてみました。という思いつきです。&lt;/p&gt;
 &lt;p&gt;このネタには &lt;a href=&quot;https://www.rust-lang.org/&quot;&gt;Rust&lt;/a&gt; が丁度良さそうなので題材にしてみようと思います。&lt;/p&gt;
@@ -240,35 +240,19 @@ N回目:
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 
 &lt;span class=&quot;token keyword&quot;&gt;fn&lt;/span&gt; &lt;span class=&quot;token function-definition function&quot;&gt;no_return&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;i32&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; y&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;-&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token macro property&quot;&gt;println!&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;3: {}, {:p}&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; x&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token macro property&quot;&gt;println!&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;4: {}, {:p}&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; y&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;y&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token macro property&quot;&gt;println!&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;3: {}, {:p}&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; x&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; x&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token macro property&quot;&gt;println!&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;4: {}, {:p}&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; y&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; y&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;1回目:
-  1: 1, 0x7ffe1936d95c
-  2: Hello, 0x7ffe1936d960
-  3: 1, 0x7ffe1936d7a8
-  4: Hello, 0x7ffe1936d7b0
+  1: 1, 0x7ffd3248d8ac
+  2: Hello, 0x7ffd3248d8b0
+  3: 1, 0x7ffd3248d8ac
+  4: Hello, 0x7ffd3248d8b0
 2回目:
-  1: 1, 0x7ffdc9b674bc
-  2: Hello, 0x7ffdc9b674c0
-  3: 1, 0x7ffdc9b67308
-  4: Hello, 0x7ffdc9b67310
-3回目:
-  1: 1, 0x7ffdfe37e7ec
-  2: Hello, 0x7ffdfe37e7f0
-  3: 1, 0x7ffdfe37e638
-  4: Hello, 0x7ffdfe37e640
-4回目:
-  1: 1, 0x7fffe7cdf64c
-  2: Hello, 0x7fffe7cdf650
-  3: 1, 0x7fffe7cdf498
-  4: Hello, 0x7fffe7cdf4a0
-...
-N回目:
-  1: 1, 0x7ff........c
-  2: Hello, 0x7ff........0
-  3: 1, 0x7ff........8
-  4: Hello, 0x7ff........0&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  1: 1, 0x7fff8ca4a57c
+  2: Hello, 0x7fff8ca4a580
+  3: 1, 0x7fff8ca4a57c
+  4: Hello, 0x7fff8ca4a580&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h1&gt;・・・おっと、&lt;/h1&gt;
 &lt;p&gt;きりがないですね。いくらでも「脱線」できそうなので、ここまでにしておきます。&lt;/p&gt;
 &lt;p&gt;本記事が目的としていた試みはとりあえず満たせたかと思います。それでは。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[20231119]]></title><description><![CDATA[「イマドキ」は Visual Studio Code で GitHub Copilot を動かすのだそうです。（本当？）Vim に引き篭もるばかりでは健康にも悪そうです。 というわけでちょっと外の空気でも・・むむ、大きな壁が。導入の段階において Windows や macOS…]]></description><link>https://ghsable.github.io/sunatter/20231119/</link><guid isPermaLink="false">https://ghsable.github.io/sunatter/20231119/</guid><pubDate>Sun, 19 Nov 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;「イマドキ」は &lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;Visual Studio Code&lt;/a&gt; で &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=GitHub.copilot&quot;&gt;GitHub Copilot&lt;/a&gt; を動かすのだそうです。（本当？）&lt;a href=&quot;https://www.vim.org/&quot;&gt;Vim&lt;/a&gt; に引き篭もるばかりでは健康にも悪そうです。&lt;/p&gt;

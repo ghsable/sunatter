@@ -242,35 +242,19 @@ N回目:
 <span class="token punctuation">}</span>
 
 <span class="token keyword">fn</span> <span class="token function-definition function">no_return</span><span class="token punctuation">(</span>x<span class="token punctuation">:</span> <span class="token operator">&amp;</span><span class="token keyword">i32</span><span class="token punctuation">,</span> y<span class="token punctuation">:</span> <span class="token operator">&amp;</span><span class="token class-name">String</span><span class="token punctuation">)</span> <span class="token punctuation">-></span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token macro property">println!</span><span class="token punctuation">(</span><span class="token string">"3: {}, {:p}"</span><span class="token punctuation">,</span> x<span class="token punctuation">,</span> <span class="token operator">&amp;</span>x<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token macro property">println!</span><span class="token punctuation">(</span><span class="token string">"4: {}, {:p}"</span><span class="token punctuation">,</span> y<span class="token punctuation">,</span> <span class="token operator">&amp;</span>y<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token macro property">println!</span><span class="token punctuation">(</span><span class="token string">"3: {}, {:p}"</span><span class="token punctuation">,</span> x<span class="token punctuation">,</span> x<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token macro property">println!</span><span class="token punctuation">(</span><span class="token string">"4: {}, {:p}"</span><span class="token punctuation">,</span> y<span class="token punctuation">,</span> y<span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span></code></pre></div>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">1回目:
-  1: 1, 0x7ffe1936d95c
-  2: Hello, 0x7ffe1936d960
-  3: 1, 0x7ffe1936d7a8
-  4: Hello, 0x7ffe1936d7b0
+  1: 1, 0x7ffd3248d8ac
+  2: Hello, 0x7ffd3248d8b0
+  3: 1, 0x7ffd3248d8ac
+  4: Hello, 0x7ffd3248d8b0
 2回目:
-  1: 1, 0x7ffdc9b674bc
-  2: Hello, 0x7ffdc9b674c0
-  3: 1, 0x7ffdc9b67308
-  4: Hello, 0x7ffdc9b67310
-3回目:
-  1: 1, 0x7ffdfe37e7ec
-  2: Hello, 0x7ffdfe37e7f0
-  3: 1, 0x7ffdfe37e638
-  4: Hello, 0x7ffdfe37e640
-4回目:
-  1: 1, 0x7fffe7cdf64c
-  2: Hello, 0x7fffe7cdf650
-  3: 1, 0x7fffe7cdf498
-  4: Hello, 0x7fffe7cdf4a0
-...
-N回目:
-  1: 1, 0x7ff........c
-  2: Hello, 0x7ff........0
-  3: 1, 0x7ff........8
-  4: Hello, 0x7ff........0</code></pre></div>
+  1: 1, 0x7fff8ca4a57c
+  2: Hello, 0x7fff8ca4a580
+  3: 1, 0x7fff8ca4a57c
+  4: Hello, 0x7fff8ca4a580</code></pre></div>
 <h1>・・・おっと、</h1>
 <p>きりがないですね。いくらでも「脱線」できそうなので、ここまでにしておきます。</p>
 <p>本記事が目的としていた試みはとりあえず満たせたかと思います。それでは。</p></section><hr/><footer><div class="mybio"><p><a href="/sunatter">😪</a><a href="/sunalog">😴</a>😪<a href="/searchmode">😴</a>😪<a href="https://zenn.dev/dativus">😴</a><a href="https://scrapbox.io/suna-64354306">😪</a>…</p></div></footer></article><nav class="blog-post-nav"><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li><a rel="prev" href="/sunatter/20231119/">← <!-- -->20231119</a></li><li></li></ul></nav></main><footer>© <!-- -->2023<!-- -->, Built with<!-- --> <a href="https://www.gatsbyjs.com">Gatsby</a></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/20231126/";/*]]>*/</script><!-- slice-start id="_gatsby-scripts-1" -->
