@@ -260,37 +260,21 @@ fn main() {
 }
 
 fn no_return(x: &i32, y: &String) -> () {
-    println!("3: {}, {:p}", x, &x);
-    println!("4: {}, {:p}", y, &y);
+    println!("3: {}, {:p}", x, x);
+    println!("4: {}, {:p}", y, y);
 }
 ```
 ```text
 1回目:
-  1: 1, 0x7ffe1936d95c
-  2: Hello, 0x7ffe1936d960
-  3: 1, 0x7ffe1936d7a8
-  4: Hello, 0x7ffe1936d7b0
+  1: 1, 0x7ffd3248d8ac
+  2: Hello, 0x7ffd3248d8b0
+  3: 1, 0x7ffd3248d8ac
+  4: Hello, 0x7ffd3248d8b0
 2回目:
-  1: 1, 0x7ffdc9b674bc
-  2: Hello, 0x7ffdc9b674c0
-  3: 1, 0x7ffdc9b67308
-  4: Hello, 0x7ffdc9b67310
-3回目:
-  1: 1, 0x7ffdfe37e7ec
-  2: Hello, 0x7ffdfe37e7f0
-  3: 1, 0x7ffdfe37e638
-  4: Hello, 0x7ffdfe37e640
-4回目:
-  1: 1, 0x7fffe7cdf64c
-  2: Hello, 0x7fffe7cdf650
-  3: 1, 0x7fffe7cdf498
-  4: Hello, 0x7fffe7cdf4a0
-...
-N回目:
-  1: 1, 0x7ff........c
-  2: Hello, 0x7ff........0
-  3: 1, 0x7ff........8
-  4: Hello, 0x7ff........0
+  1: 1, 0x7fff8ca4a57c
+  2: Hello, 0x7fff8ca4a580
+  3: 1, 0x7fff8ca4a57c
+  4: Hello, 0x7fff8ca4a580
 ```
 
 # ・・・おっと、
