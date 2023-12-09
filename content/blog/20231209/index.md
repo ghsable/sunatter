@@ -2,7 +2,6 @@
 title: 20231209
 date: "2023-12-09"
 ---
-# はじめに
 こんにちは。話題の脱出ゲーム「[The Exit 8](https://store.steampowered.com/app/2653790/The_Exit_8/)」をプレイしてみました。
 
 ルールは単純で「異変が無ければ道を進む」「異変が有れば道を戻る」です。連続で正答していけばタイトルの通り「[8番出口](https://store.steampowered.com/app/2653790/_/?l=japanese)」から脱出できるというものです。
