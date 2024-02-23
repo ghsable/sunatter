@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[suna❜s information.]]></description><link>https://ghsable.github.io/sunatter</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 23 Feb 2024 09:22:49 GMT</lastBuildDate><item><title><![CDATA[20240223]]></title><description><![CDATA[…]]></description><link>https://ghsable.github.io/sunatter/20240223/</link><guid isPermaLink="false">https://ghsable.github.io/sunatter/20240223/</guid><pubDate>Fri, 23 Feb 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは。自宅のネットワーク環境の整備に成功したので記録しておこうと思います。&lt;/p&gt;
-&lt;p&gt;コンピュータ周辺で手を加えられるところが無くなってきたためネットワーク環境の方に手を伸ばしてみた次第です。困っている領域では無い（既に接続できている）ため後回しになっていました。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[suna❜s information.]]></description><link>https://ghsable.github.io/sunatter</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 23 Feb 2024 09:26:50 GMT</lastBuildDate><item><title><![CDATA[20240223]]></title><description><![CDATA[…]]></description><link>https://ghsable.github.io/sunatter/20240223/</link><guid isPermaLink="false">https://ghsable.github.io/sunatter/20240223/</guid><pubDate>Fri, 23 Feb 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは。自宅のネットワーク環境の整備に成功したので記録しておこうと思います。&lt;/p&gt;
+&lt;p&gt;コンピュータ周辺で手を加えられるところが無くなってきたためネットワーク環境の方に手を伸ばしてみた次第です。困っている領域では無い（既に通信できている）ため後回しになっていました。&lt;/p&gt;
 &lt;p&gt;当初の目的は満たせたので「成功」と言って問題無いかなと振り返っています。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;通信を安定させる。（謎に途中で途切れないこと。）&lt;/li&gt;
@@ -128,7 +128,7 @@ LANケーブル1本で対処しようとすると壁の穴とLANケーブルの�
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;これで以上になります。ネットワーク環境（有線LAN接続・無線LAN接続）の改善は「成功」と言って良さそうです。&lt;/p&gt;
+&lt;p&gt;これで以上になります。ネットワーク環境（有線LAN接続・無線LAN接続）の整備（改善）は「成功」と言って良さそうです。&lt;/p&gt;
 &lt;p&gt;サービスデスクの方・作業員の方、ご対応いただきありがとうございました。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[20231209]]></title><description><![CDATA[こんにちは。話題の脱出ゲーム「The Exit 8」をプレイしてみました。 ルールは単純で「異変が無ければ道を進む」「異変が有れば道を戻る」です。連続で正答していけばタイトルの通り「8番出口」から脱出できるというものです。 Unreal Engine…]]></description><link>https://ghsable.github.io/sunatter/20231209/</link><guid isPermaLink="false">https://ghsable.github.io/sunatter/20231209/</guid><pubDate>Sat, 09 Dec 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは。話題の脱出ゲーム「&lt;a href=&quot;https://store.steampowered.com/app/2653790/The_Exit_8/&quot;&gt;The Exit 8&lt;/a&gt;」をプレイしてみました。&lt;/p&gt;
 &lt;p&gt;ルールは単純で「異変が無ければ道を進む」「異変が有れば道を戻る」です。連続で正答していけばタイトルの通り「&lt;a href=&quot;https://store.steampowered.com/app/2653790/_/?l=japanese&quot;&gt;8番出口&lt;/a&gt;」から脱出できるというものです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.unrealengine.com/ja/unreal-engine-5&quot;&gt;Unreal Engine 5&lt;/a&gt; の威力でしょうか、現実世界と見間違えてしまいそうです。光の反射（レイトレーシング）や床の汚れなど、高精細で驚きます。&lt;/p&gt;
