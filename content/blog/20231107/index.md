@@ -1,5 +1,5 @@
 ---
-title: 20231107
+title: 楽天のAPIに思うところ
 date: "2023-11-07"
 ---
 こんにちは。[Rakuten Web Service](https://webservice.rakuten.co.jp/) の [API一覧](https://webservice.rakuten.co.jp/documentation) を眺めていて少し気になりました。（巷で話題のネタです。）

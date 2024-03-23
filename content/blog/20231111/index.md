@@ -1,5 +1,5 @@
 ---
-title: 20231111
+title: NixOSにImmersedを導入する
 date: "2023-11-11"
 ---
 しばらく先の私に向けた戦記を残しておきます。[NixOS](https://nixos.org/) で [Immersed](https://immersed.com/) を完動させることが最終目的です。（[NixOS](https://nixos.org/) 以外のユーザが読まれてもあまり意味が無いかもしれません。）

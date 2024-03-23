@@ -1,5 +1,5 @@
 ---
-title: 20231118
+title: 駄文の向かうところ
 date: "2023-11-18"
 ---
 こんにちは。ここ最近 [セブン‐イレブン](https://www.sej.co.jp/) で話題沸騰中の [ブラジルプリン](https://www.sej.co.jp/products/a/item/111493/) を買いました。

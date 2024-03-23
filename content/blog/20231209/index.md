@@ -1,5 +1,5 @@
 ---
-title: 20231209
+title: 8番出口から脱出できました
 date: "2023-12-09"
 ---
 こんにちは。話題の脱出ゲーム「[The Exit 8](https://store.steampowered.com/app/2653790/The_Exit_8/)」をプレイしてみました。

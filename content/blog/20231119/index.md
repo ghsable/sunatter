@@ -1,8 +1,8 @@
 ---
-title: 20231119
+title: NisOSのVSCodeにCopilotを導入する
 date: "2023-11-19"
 ---
-「イマドキ」は [Visual Studio Code](https://code.visualstudio.com/) で [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) を動かすのだそうです。（本当？）[Vim](https://www.vim.org/) に引き篭もるばかりでは健康にも悪そうです。
+イマドキ は [Visual Studio Code](https://code.visualstudio.com/) で [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) を動かすのだそうです。（本当？）[Vim](https://www.vim.org/) に引き篭もるばかりでは健康にも悪そうです。
 
 というわけでちょっと外の空気でも・・むむ、大きな壁が。導入の段階において [Windows](https://www.microsoft.com/en-us/windows) や [macOS](https://www.apple.com/jp/macos/) であればスムーズに構築できるのですが、悲しいかな [NixOS](https://nixos.org/) だとそうもいきません。
 
