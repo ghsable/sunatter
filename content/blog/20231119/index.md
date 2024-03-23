@@ -119,7 +119,7 @@ encryption that doesn't use the OS keyring.
 - [Settings Sync#(recommended) Configure the keyring to use with VS Code](https://code.visualstudio.com/docs/editor/settings-sync#_recommended-configure-the-keyring-to-use-with-vs-code)
 
 キーリング周りをスタートラインから詳解すると大変なことになりますので簡単（詳細な設定内容は省略）に。ミニマルな例として [pass](https://www.passwordstore.org/)（`password-store`）および [libsecret](https://wiki.gnome.org/Projects/Libsecret)（`pass-secret-service`）を有効にし、`~/.vscode/argv.json`（[VSCodium](https://vscodium.com/) の場合は`~/.vscode-oss/argv.json`）に`"password-store": "gnome"`（`code --password-store="gnome"`の永続化）を加えると良さそうです。`argv.json`への適用は以下が参考になると思います。
-- [Linux: An OS keyring couldn't be identified for storing the encryption related data in your current desktop environment #187338#issuecomment-1714813468](https://github.com/microsoft/vscode/issues/187338#issuecomment-1714813468)
+- [Linux: An OS keyring couldn't be identified for storing the encryption related data in your current desktop environment#187338#issuecomment-1714813468](https://github.com/microsoft/vscode/issues/187338#issuecomment-1714813468)
 
 「`Use weaker encryption`」で先に進むことはできますが「キーリングが使えていない状態」ということに留意しておく必要があります。
 
