@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[suna❜s information.]]></description><link>https://ghsable.github.io/sunatter</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 23 Mar 2024 04:10:24 GMT</lastBuildDate><item><title><![CDATA[自宅のネットワーク環境を改善しました]]></title><description><![CDATA[…]]></description><link>https://ghsable.github.io/sunatter/20240223/</link><guid isPermaLink="false">https://ghsable.github.io/sunatter/20240223/</guid><pubDate>Fri, 23 Feb 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは。自宅のネットワーク環境の改善に成功したので記録しておこうと思います。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[suna❜s information.]]></description><link>https://ghsable.github.io/sunatter</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 23 Mar 2024 04:21:00 GMT</lastBuildDate><item><title><![CDATA[自宅のネットワーク環境を改善しました]]></title><description><![CDATA[…]]></description><link>https://ghsable.github.io/sunatter/20240223/</link><guid isPermaLink="false">https://ghsable.github.io/sunatter/20240223/</guid><pubDate>Fri, 23 Feb 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは。自宅のネットワーク環境の改善に成功したので記録しておこうと思います。&lt;/p&gt;
 &lt;p&gt;コンピュータ周辺で手を加えられるところが無くなってきたためネットワーク環境の方に手を伸ばしてみた次第です。困っている領域では無い（既に通信できている）ため後回しになっていました。&lt;/p&gt;
 &lt;p&gt;当初の目的は満たせたので「成功」と言って問題無いかなと振り返っています。&lt;/p&gt;
 &lt;ul&gt;
@@ -8,9 +8,9 @@
 &lt;p&gt;オンラインでの打合せやリモート接続などが特に不安定でしたが、明らかに安定するようになりました。実施された内容は以下の通りです。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;屋外LAN配線&lt;/li&gt;
-&lt;li&gt;ONU交換&lt;/li&gt;
+&lt;li&gt;ONU（ルーター機能内蔵）交換&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;「屋外LAN配線」は有線LAN接続に向けた話です。ONUから有線LAN接続するために壁に穴を空けて屋外を経由して配線する工事になります。&lt;/p&gt;
+&lt;p&gt;「屋外LAN配線」は有線LAN接続に向けた話です。「ONU（ルーター機能内蔵）」から有線LAN接続するために壁に穴を空けて屋外を経由して配線する工事になります。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;✍余談 其の壱
 LANケーブル1本で対処しようとすると壁の穴とLANケーブルの間から隙間風が入ってくる可能性があります。費用がかさみますが「LANジャック（埋込型）の取付け」は全箇所で施工しておいた方が良いです。
 「接続先との間に3本のLANケーブルがあるより1本の方が通信品質が上がるのでは？」という印象がありましたが実測では変わりませんでした。屋外のLANケーブルのカテゴリ（例: 5e）に屋内も合わせておけば問題無さそうです。
@@ -61,7 +61,7 @@ LANケーブル1本で対処しようとすると壁の穴とLANケーブルの�
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://about.netflix.com/ja/news/fast-com-now-measures-latency-and-upload-speed&quot;&gt;FAST.comでレイテンシとアップロード速度の計測が可能に&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;続いて「ONU交換」は無線LAN接続に向けた話です。正当な理由があれば上位版に交換対応（無償）していただけるようで以下の恩恵を受けることができます。&lt;/p&gt;
+&lt;p&gt;続いて「ONU（ルーター機能内蔵）交換」は無線LAN接続に向けた話です。正当な理由があれば上位版に交換対応（無償）していただけるようで以下の恩恵を受けることができます。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;同時接続台数の上限値が上がる。（例: 10台 → 32台）&lt;/li&gt;
 &lt;li&gt;Wi-Fi規格が上がる。（例: Wi-Fi 5 → Wi-Fi 6）&lt;/li&gt;
