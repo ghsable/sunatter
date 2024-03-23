@@ -95,7 +95,7 @@ encryption that doesn't use the OS keyring.</code></pre></div>
 </ul>
 <p>キーリング周りをスタートラインから詳解すると大変なことになりますので簡単（詳細な設定内容は省略）に。ミニマルな例として <a href="https://www.passwordstore.org/">pass</a>（<code class="language-text">password-store</code>）および <a href="https://wiki.gnome.org/Projects/Libsecret">libsecret</a>（<code class="language-text">pass-secret-service</code>）を有効にし、<code class="language-text">~/.vscode/argv.json</code>（<a href="https://vscodium.com/">VSCodium</a> の場合は<code class="language-text">~/.vscode-oss/argv.json</code>）に<code class="language-text">"password-store": "gnome"</code>（<code class="language-text">code --password-store="gnome"</code>の永続化）を加えると良さそうです。<code class="language-text">argv.json</code>への適用は以下が参考になると思います。</p>
 <ul>
-<li><a href="https://github.com/microsoft/vscode/issues/187338#issuecomment-1714813468">Linux: An OS keyring couldn't be identified for storing the encryption related data in your current desktop environment #187338#issuecomment-1714813468</a></li>
+<li><a href="https://github.com/microsoft/vscode/issues/187338#issuecomment-1714813468">Linux: An OS keyring couldn't be identified for storing the encryption related data in your current desktop environment#187338#issuecomment-1714813468</a></li>
 </ul>
 <p>「<code class="language-text">Use weaker encryption</code>」で先に進むことはできますが「キーリングが使えていない状態」ということに留意しておく必要があります。</p>
 <p><a href="https://github.com/features/copilot">GitHub Copilot</a> のアクセス権が無い場合はエラーが出ます。</p>
