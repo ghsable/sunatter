@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[suna❜s information.]]></description><link>https://ghsable.github.io/sunatter</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 24 Mar 2024 05:04:12 GMT</lastBuildDate><item><title><![CDATA[記事のタイトルを年月日から改めました]]></title><description><![CDATA[…]]></description><link>https://ghsable.github.io/sunatter/20240323/</link><guid isPermaLink="false">https://ghsable.github.io/sunatter/20240323/</guid><pubDate>Sat, 23 Mar 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは。記事のタイトルを「年月日」から改めました。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[suna❜s information.]]></description><link>https://ghsable.github.io/sunatter</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 24 Mar 2024 07:55:59 GMT</lastBuildDate><item><title><![CDATA[サイトを移行しました]]></title><description><![CDATA[こんにちは。サイトを移行しました。 sunatter 旧sunatter での投稿はこれが最後になります。実は前回の記事は移行作業の一環でした。（種明かし。） 記事のタイトルを年月日から改めました 紆余曲折ありましたので変遷をまとめておきます。 バージョン 名称 利用技術 1.…]]></description><link>https://ghsable.github.io/sunatter/20240324/</link><guid isPermaLink="false">https://ghsable.github.io/sunatter/20240324/</guid><pubDate>Sun, 24 Mar 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは。サイトを移行しました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ghsable.github.io/sunanet/sunatter/&quot;&gt;sunatter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://ghsable.github.io/sunatter/&quot;&gt;旧sunatter&lt;/a&gt; での投稿はこれが最後になります。実は前回の記事は移行作業の一環でした。（種明かし。）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;/sunatter/20240323&quot;&gt;記事のタイトルを年月日から改めました&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;紆余曲折ありましたので変遷をまとめておきます。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;バージョン&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;名称&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;利用技術&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;1.0&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;a href=&quot;https://github.com/ghsable/sunatter.archive.a&quot;&gt;sunatter.archive.a&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;a href=&quot;https://www.getzola.org/&quot;&gt;Zola&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;2.0&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;a href=&quot;https://github.com/ghsable/sunatter&quot;&gt;sunatter&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;a href=&quot;https://www.gatsbyjs.com/&quot;&gt;Gatsby&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;3.0&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;a href=&quot;https://ghsable.github.io/sunanet/sunatter/&quot;&gt;sunanet/sunatter&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;a href=&quot;https://quartz.jzhao.xyz/&quot;&gt;Quartz&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;a href=&quot;https://quartz.jzhao.xyz/&quot;&gt;Quartz&lt;/a&gt; は &lt;a href=&quot;https://obsidian.md/&quot;&gt;Obsidian&lt;/a&gt; にインスパイアされた静的サイトジェネレータです。&lt;/p&gt;
+&lt;p&gt;私は &lt;a href=&quot;https://obsidian.md/&quot;&gt;Obsidian&lt;/a&gt; ユーザではありませんが、以下の機能が気に入っています。（お気に入り順。）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;全文検索&lt;/li&gt;
+&lt;li&gt;ライトモード・ダークモードの切替&lt;/li&gt;
+&lt;li&gt;記事のリンクにマウスホバーした際にページプレビューをポップアップ表示&lt;/li&gt;
+&lt;li&gt;Graph View（無向グラフ）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;鋭い方から「&lt;a href=&quot;https://ghsable.github.io/sunalog/&quot;&gt;sunalog&lt;/a&gt;（私のブログ）もセクションを分けて統合できるのでは？」とツッコミがあるかもしれません。最後は心の返答で締めくくりたいと思います。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;ぅ・・おっしゃる通り。
+「sunanet/sunalog」にした方が統一性があってメンテナンスコストも下がる。
+なによりも現行は機能面で劣っているのだから統合した方が良いのではないか・・と。
+・・その通り。ぁ・・あいちゃくじゃよ。
+2019年からの付き合いなもんでね・・私はまだ人間（非AI）を捨てていないんだ。&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[記事のタイトルを年月日から改めました]]></title><description><![CDATA[…]]></description><link>https://ghsable.github.io/sunatter/20240323/</link><guid isPermaLink="false">https://ghsable.github.io/sunatter/20240323/</guid><pubDate>Sat, 23 Mar 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは。記事のタイトルを「年月日」から改めました。&lt;/p&gt;
 &lt;p&gt;今後は記事を表すタイトルを題するようにしてみようと思います。（出戻りですね。）&lt;/p&gt;
 &lt;p&gt;記事のタイトルを「年月日」に統一していた理由は過去の記事をご参照ください。&lt;/p&gt;
 &lt;ul&gt;
