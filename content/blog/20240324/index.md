@@ -13,6 +13,7 @@ date: "2024-03-24"
 紆余曲折ありましたので変遷をまとめておきます。
 | バージョン | 名称 | 利用技術 |
 | :--- | :--- | :--- |
+| 0.0 | [Twitter](https://twitter.com/) | 不明 |
 | 1.0 | [sunatter.archive.a](https://github.com/ghsable/sunatter.archive.a) | [Zola](https://www.getzola.org/) |
 | 2.0 | [sunatter](https://github.com/ghsable/sunatter) | [Gatsby](https://www.gatsbyjs.com/) |
 | **3.0** | [sunanet/sunatter](https://ghsable.github.io/sunanet/sunatter/) | [Quartz](https://quartz.jzhao.xyz/) |
