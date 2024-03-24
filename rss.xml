@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[suna❜s information.]]></description><link>https://ghsable.github.io/sunatter</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 24 Mar 2024 04:59:58 GMT</lastBuildDate><item><title><![CDATA[記事のタイトルを年月日から改めました]]></title><description><![CDATA[…]]></description><link>https://ghsable.github.io/sunatter/20240323/</link><guid isPermaLink="false">https://ghsable.github.io/sunatter/20240323/</guid><pubDate>Sat, 23 Mar 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは。記事のタイトルを「年月日」から改めました。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[suna❜s information.]]></description><link>https://ghsable.github.io/sunatter</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 24 Mar 2024 05:04:12 GMT</lastBuildDate><item><title><![CDATA[記事のタイトルを年月日から改めました]]></title><description><![CDATA[…]]></description><link>https://ghsable.github.io/sunatter/20240323/</link><guid isPermaLink="false">https://ghsable.github.io/sunatter/20240323/</guid><pubDate>Sat, 23 Mar 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;こんにちは。記事のタイトルを「年月日」から改めました。&lt;/p&gt;
 &lt;p&gt;今後は記事を表すタイトルを題するようにしてみようと思います。（出戻りですね。）&lt;/p&gt;
 &lt;p&gt;記事のタイトルを「年月日」に統一していた理由は過去の記事をご参照ください。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;/sunatter/sunatter/20231103&quot;&gt;記事のタイトルを年月日に統一しました&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/sunatter/20231103&quot;&gt;記事のタイトルを年月日に統一しました&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;余談ですが「タイトルを決めて本文を書く」よりも「本文を書いてタイトルを決める」方が効果的な場合がありますね。&lt;/p&gt;
 &lt;p&gt;戻りまして引き続きブログ未満という位置付けに変更はございません。厳密には「青鳥以上ブログ未満」になります。&lt;/p&gt;
