@@ -5,7 +5,9 @@ date: "2024-03-24"
 こんにちは。サイトを移行しました。
 - [sunatter](https://ghsable.github.io/sunanet/sunatter/)
 
-[旧sunatter](https://ghsable.github.io/sunatter/) での投稿はこれが最後になります。実は前回の記事は移行作業の一環でした。（種明かし。）
+[旧sunatter](https://ghsable.github.io/sunatter/) での投稿はこれが最後になります。
+
+実は前回の記事は移行作業の一環でした。（種明かし。）
 - [記事のタイトルを年月日から改めました](/20240323)
 
 紆余曲折ありましたので変遷をまとめておきます。
